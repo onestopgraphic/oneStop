@@ -5,7 +5,14 @@ var Wow = function() {
   // Handle Wow
   var handleWow = function() {
     var wow = new WOW({
-      mobile: true
+      
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       
+        live:         true        // default
+      
+     
   	});
   	wow.init();
   }
