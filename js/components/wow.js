@@ -5,7 +5,7 @@ var Wow = function() {
   // Handle Wow
   var handleWow = function() {
     var wow = new WOW({
-      mobile: false
+      mobile: true
   	});
   	wow.init();
   }
